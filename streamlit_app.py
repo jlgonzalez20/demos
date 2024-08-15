@@ -3,7 +3,7 @@ from pycaret.regression import load_model, predict_model
 import pandas as pd
 
 # Cargar el modelo entrenado
-modelo_entrenado = load_model('mi_modelo')
+modelo_entrenado = load_model('my_model')
 
 # Título de la aplicación
 st.title('App de Predicción con PyCaret (Regresión)')
